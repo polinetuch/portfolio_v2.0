@@ -1,0 +1,6 @@
+*,
+*::before,
+*::after {
+  /* changing how padding is calculating within the width */
+  box-sizing: border-box;
+}
