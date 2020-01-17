@@ -96,6 +96,7 @@ h3 {
 .section__subtitle--intro,
 .section__title--about {
   background: var(--clr-accent);
+  padding: 2.5em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
 }
@@ -130,5 +131,10 @@ nav {
   .section__subtitle--intro {
     align-self: start;
     grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -0.5em;
+    width: calc(100% + 1.5em);
   }
 }
