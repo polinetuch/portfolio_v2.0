@@ -109,3 +109,13 @@ nav {
 .intro {
   position: relative;
 }
+
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+}
