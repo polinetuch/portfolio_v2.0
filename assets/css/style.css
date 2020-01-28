@@ -59,6 +59,20 @@ strong {
   font-weight: var(--fw-bold);
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.5em;
+  background: var(--clr-accent);
+  color: var(--clr-accent);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--fw-bold);
+  transition: transform 200ms ease-in-out;
+}
+
 /* Typography */
 h1,
 h2,
@@ -177,6 +191,11 @@ nav {
   opacity: 0.25em;
 }
 
+.service {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 @media (min-width: 800px) {
   .services {
     display: flex;
@@ -185,5 +204,6 @@ nav {
   }
 
   .service + .service {
+    margin-left: 2em;
   }
 }
