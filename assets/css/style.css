@@ -32,7 +32,7 @@
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
-    --fs-body: 1rem;
+    --fs-body: 1.125rem;
   }
 }
 
@@ -117,13 +117,13 @@ h3 {
   display: block;
 }
 
-.section__title {
+.section__subtitle {
   margin: 0;
   font-size: var(--fs-h3);
 }
 
 .section__subtitle--intro,
-.section__title--about {
+.section__subtitle--about {
   background: var(--clr-accent);
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
@@ -162,7 +162,7 @@ nav {
 
   .intro__img {
     grid-area: img;
-    min-width: 150px;
+    min-width: 250px;
     position: relative;
     z-index: 2;
   }
@@ -173,8 +173,8 @@ nav {
     grid-row: 2;
     text-align: right;
     position: relative;
-    left: 2em;
-    width: calc(100% + 2.5em);
+    left: -1.5em;
+    width: calc(100% + 1.5em);
   }
 }
 
@@ -230,6 +230,10 @@ nav {
   margin: 0 auto;
 }
 
+.about-me__img {
+  box-shadow: var(--bs);
+}
+
 @media (min-width: 600px) {
   .about-me {
     display: grid;
@@ -240,8 +244,13 @@ nav {
       "text img";
   }
 
-  .section__subtitle--about {
+  .section__title--about {
     grid-area: title;
+  }
+
+  .section__subtitle--about {
+    grid-column: 1 / -1;
+    grid-row: 2;
   }
 
   .about-me__img {
