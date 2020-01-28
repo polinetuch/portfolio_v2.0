@@ -162,7 +162,7 @@ nav {
 
   .intro__img {
     grid-area: img;
-    min-width: 260px;
+    min-width: 250px;
     position: relative;
     z-index: 2;
   }
@@ -196,11 +196,11 @@ nav {
 .section__title--services::after {
   content: "";
   display: block;
-  width: 25%;
+  width: 2em;
   height: 1px;
   margin: 0.5em auto 1em;
   background: var(--clr-light);
-  opacity: 0.25em;
+  opacity: 0.25;
 }
 
 .service {
