@@ -131,8 +131,15 @@ h3 {
 }
 
 /* header */
-nav {
-  display: none;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.logo {
+  max-width: 150px;
 }
 
 /* Intro section */
