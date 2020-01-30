@@ -56,40 +56,47 @@
     <!--Introduction-->
     <section class="intro">
       <h1 class="section__title section__title--intro">
-        Coding Bootcamp Project <strong> Train Schedule</strong>
+        Coding Bootcamp Group Project <strong> Along Came Polly</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro">
-        HTML, CSS, Javascript, Moment Js & Firebase
+        Linked your Spotify account for upcoming events
       </p>
       <img
-        src="./assets/img/train-schedule.gif"
-        alt="train-schedule"
+        src="./assets/img/spotify.gif"
+        alt="spotify"
         class="intro__img"
       />
     </section>
 
     <div class="portfolio-item-individual">
       <p>
-        <strong>What I have learnt in this project:</strong>
-        <ul>
-          <li>Configuring and initializing Firebase using API key and projectID provided by Firebase</li>
-          <li>Assigned variables for all inputs such as name, destination, first train and frequency</li>
-          <li>Used child_added to add to new schedule without removing theexisted one</li>
-          <li>Convert current time using moment.js</li>
-
-        </ul>
+        This was my first group project called; Along Came Polly. This is a music event applications
+        that compiles a list of upcoming events based on your top playlist on Spotify.
+        You can log on to the app using your Facebook account, which will then redirect 
+        you back to the website. Once redirected, users can view their top artists and songs.
       </p>
-      <img src="./assets/img/train01.PNG" alt="train01" />
+      <img src="./assets/img/along-came-polly.PNG" alt="spotify" />
+      <h3>My role on the project</h3>
       <p>
-        This application allows administrators to submit the following: 
+          I worked on the API endpoint. Once a list of artists or songs are compiled, the names of artist will
+          then be compared to Ticketmaster API to display all upcoming events. To do so, I created a function
+          to query the API. Using ajax with a GET method, it returns a response under the Json format.
+          Based on the names given from user's Spotify account, it will loop through the results 5 times then
+          display in a new div with details such as artist name, event dates and location.
+      </p>
+      <img src="./assets/img/sportify02.PNG" alt="spotify"/>
+      <p>
+        Language and tool used: 
         <ol>
-          <li>Train name</li>
-          <li>Destination</li>
-          <li>First train time</li>
-          <li>Frequency in minutes</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Ticketmaster API</li>
+          <li>Facebook Auth0 Authentication</li>
+          <li>Spotify API</li>
         </ol>
       </p>
-      <img src="./assets/img/train02.PNG">
+      <img src="./assets/img/sportify03.PNG" alt="spotify" />
     </div>
 
     <!--Footer-->
