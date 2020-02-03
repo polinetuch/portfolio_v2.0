@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <!--Link to style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h3>devname:Poli</h3>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Journey</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Coding Bootcamp Project <strong> </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        HTML, CSS, Javascript, Moment Js & Firebase
+      </p>
+      <img
+        src="./assets/img/train-schedule.gif"
+        alt="train-schedule"
+        class="intro__img"
+      />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        <strong>What I have learnt in this project:</strong>
+        <ul>
+          <li>Configuring and initializing Firebase using API key and projectID provided by Firebase</li>
+          <li>Assigned variables for all inputs such as name, destination, first train and frequency</li>
+          <li>Used child_added to add to new schedule without removing theexisted one</li>
+          <li>Convert current time using moment.js</li>
+
+        </ul>
+      </p>
+      <img src="./assets/img/train01.PNG" alt="train01" />
+      <p>
+        This application allows administrators to submit the following: 
+        <ol>
+          <li>Train name</li>
+          <li>Destination</li>
+          <li>First train time</li>
+          <li>Frequency in minutes</li>
+        </ol>
+      </p>
+      <img src="./assets/img/train02.PNG">
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+      <p class="footer_link">Contact</p>
+      <p>
+        <a href="mailto:uchpolinet@gmail.com">
+          Email: uchpolinet@gmail.com
+        </a>
+      </p>
+      <p><a href="tel:+61423833438">Mobile: +61423833438</a></p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/polinetuch"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/polinetuch/"
+            class="social-list__link"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
