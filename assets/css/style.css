@@ -396,6 +396,10 @@ header {
 .portfolio__item {
   background: var(--clr-light);
   overflow: hidden;
+  text-decoration: none;
+  color: black;
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-secondary);
 }
 
 .portfolio__img {
