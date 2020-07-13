@@ -465,7 +465,7 @@ header {
 /* Individual portfolio item */
 
 .portfolio-item-individual {
-  padding: 0 2em 2em;
+  padding: 2em 2em 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
   background-color: var(--clr-dark);
@@ -475,6 +475,7 @@ header {
 
 .portfolio-item-individual p {
   max-width: 600px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
