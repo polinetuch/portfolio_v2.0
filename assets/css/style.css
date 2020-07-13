@@ -71,7 +71,9 @@ strong {
 
 /* Buttons */
 
-.btn {
+.btn,
+#try-url,
+#github-url {
   display: inline-block;
   padding: 0.5em 2.5em;
   background: var(--clr-accent);
@@ -290,7 +292,6 @@ header {
 /* My services section */
 .my-services {
   background-color: var(--clr-dark);
-  /* background-image: url("../img/light_bulb.jpg"); */
   background-size: cover;
   /* background-blend-mode: multiply; */
   color: var(--clr-light);
@@ -316,10 +317,10 @@ header {
   margin-bottom: 4em;
 }
 
-/* .service {
+.service {
   max-width: 700px;
   margin: 0 auto;
-} */
+}
 
 @media (min-width: 800px) {
   .services {
@@ -467,6 +468,9 @@ header {
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
 }
 
 .portfolio-item-individual p {
