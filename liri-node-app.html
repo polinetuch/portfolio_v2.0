@@ -18,7 +18,10 @@
     />
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!--Link to style.css-->
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -66,47 +69,66 @@
     </section>
 
     <div class="portfolio-item-individual">
+      <h3>The Liri Node</h3>
+      <br />
       <p>
-        <strong>The Liri Node</strong>
-        <br>
-        <strong>
-          <ul>
-            <li>
-              <a href="https://github.com/polinetuch/liri-node-app">View Code</a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/file/d/1y62ypoMBCahtv95oe0Ot9adFsQMeJPSN/view">
-                Click here to see a demo video
-              </a>
-            </li>
-          </ul>
-        </strong>
-        <ul>
-          When starting the node server on node liri.js, the app will begin 
-          listening to the following commands:
-          <li>concert-this</li>
-          <li>spotify-this-song</li>
-          <li>movie-this</li>
-          <li>do-what-it-says</li>
-        </ul>
+        LIRI is like iPhone's SIRI. However, while SIRI is a Speech
+        Interpretation and Recognition Interface, LIRI is a _Language_
+        Interpretation and Recognition Interface. LIRI will be a command line
+        node app that takes in parameters and gives you back data.
+      </p>
 
-        <ul>
-            Here are a few command line examples:
-            <li>node liri.js concert-this U2</li>
-            <li>node liri.js spotify-this-song Beautiful People</li>
-            <li>node liri.js movie-this Ponyo</li>
-        </ul>
+      <hr />
+      <h3>
+        Use node liri.js then run one of the following commands, then add search
+        text:
+      </h3>
+      <p>concert-this</p>
+      <p>spotify-this-song</p>
+      <p>movie-this</p>
+      <p>do-what-it-says</p>
 
-        <ul>
-            Technology used:
-            <li>Javascript library: Node Js</li>
-            <li>Bands In Town API</li>
-            <li>Spotify API</li>
-            <li>OMDB API</li>
-        </ul>
+      <strong>
+        <a href="https://github.com/polinetuch/liri-node-app" id="github-url"
+          >View Code</a
+        >
+        <a
+          href="https://drive.google.com/file/d/1y62ypoMBCahtv95oe0Ot9adFsQMeJPSN/view"
+          id="try-url"
+          >Video Demo</a
+        >
+      </strong>
+
+      <hr />
+      <h3>Here are a few command line examples:</h3>
+      <p>node liri.js concert-this U2</p>
+      <p>node liri.js spotify-this-song Beautiful People</p>
+      <p>node liri.js movie-this Ponyo</p>
+
+      <hr />
+      <h3>Technology used:</h3>
+      <p>Javascript library: Node Js</p>
+      <p>Bands In Town API</p>
+      <p>Spotify API</p>
+      <p>OMDB API</p>
+
+      <hr />
+      <h3>
+        The following information will be displayed, when the command is running
+      </h3>
+      <p>
+        <strong>concert-this:</strong> venue name, venue location and date of
+        the Event
+      </p>
+      <p>
+        <strong>spotify-this-song:</strong> artist name, song title, song
+        preview, and album
+      </p>
+      <p>
+        <strong>movie-this</strong>: movie, title, year released, IMDB rating,
+        Rotten Tomatoes Rating, country, language of the movie, plot, actors
       </p>
     </div>
-
     <!--Footer-->
     <footer class="footer">
       <p class="footer_link">Contact</p>
